@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
+
+    <!-- My CSS -->
+    <link rel="stylesheet" href="style.css" />
+    <title>Portfolio | Farhan Firdaus</title>
+  </head>
+  <body id="home">
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark shadow-sm fixed-top">
+      <div class="container">
+        <a class="navbar-brand" href="#home">Farfirus</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#home">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#projects">Projects</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- Akhir Navbar -->
+    <!-- Jumbotron -->
+    <section class="jumbotron text-center">
+      <img src="img/IMG_2902.jpg" alt="Farhan Firdaus" width="250" class="rounded-circle img-thumbnail" />
+      <h1 class="display-4">Farhan Firdaus</h1>
+      <p class="lead">IT Staff Support</p>
+    </section>
+    <!-- Akhir Jumbotron -->
+    <!-- About -->
+    <section id="about">
+      <div class="container">
+        <div class="row text-center mt-2 mb-3">
+          <div class="col">
+            <h2>About Me</h2>
+          </div>
+        </div>
+        <div class="row justify-content-center fs-5">
+          <div class="col-md-3">
+            <p>Nama saya Farhan Firdaus, pendidikan terakhir saya D3 Teknik Komputer di Sekolah Vokasi IPB. Saya adalah seorang tenaga pendidik sekaligus menjabat sebagai IT di Sekolah Vokasi Insitut Pertanian Bogor Kampus Sukabumi</p>
+          </div>
+          <div class="col-md-3">
+            <p>Saya mempunyai pengalaman di bidang IT yang mempunyai jobdesk yaitu manajemen jaringan internet di kampus, installasi perawatan komputer pegawai, membantu operator akademik,dan juga sebagai teknisi laboratorium komputer</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Akhir About -->
+    <!-- Projects -->
+    <section id="projects" style="bacground-color: darkgrey">
+      <div class="container">
+        <div class="row text-center mb-3">
+          <div class="col mt-3">
+            <h2>My Projects</h2>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-4 mb-3">
+            <div class="card">
+              <img src="img/camphoto_1254324197.jpg" class="card-img-top" alt="Project1" />
+              <div class="card-body">
+                <p class="card-text">Manajemen Jaringan LAN dengan router mikrotik di kampus SV IPB Sukabumi</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 mb-3">
+            <div class="card">
+              <img src="img/IMG_1022.jpg" class="card-img-top" alt="Project2" />
+              <div class="card-body">
+                <p class="card-text">Implementasi keypad pada praktikum sistem tertanam dengan menggunakan arduino uno</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 mb-3">
+            <div class="card">
+              <img src="img/IMG_1959.jpg" class="card-img-top" alt="Project3" />
+              <div class="card-body">
+                <p class="card-text">Membuat alat monitoring kepekatan dan suhu nutrisi pada tanaman hidroponik dan juga otomatisasi penstabil suhu dengan menggunakan kipas pada nutrisi tanaman hidroponik</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Akhir Projects -->
+    <!-- Contact -->
+    <section id="contact">
+      <div class="container">
+        <div class="row text-center mb-3">
+          <div class="col">
+            <h2>Contact Me</h2>
+          </div>
+        </div>
+        <div class="row justify-content-center">
+          <div class="col-md-6">
+            <form>
+              <div class="mb-3">
+                <label for="name" class="form-label">Nama</label>
+                <input type="text" class="form-control" id="name" aria-describedby="name" />
+              </div>
+              <div class="mb-3">
+                <label for="email" class="form-label">Email</label>
+                <input type="email" class="form-control" id="email" aria-describedby="email" />
+              </div>
+              <div class="mb-3">
+                <label for="pesan" class="form-label">Pesan</label>
+                <textarea class="form-control" id="pesan" rows="3"></textarea>
+              </div>
+              <button type="submit" class="btn btn-primary">Kirim</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Akhir Contact -->
+    <!-- Footer -->
+    <footer class="bg-dark text-white text-center mt-4">
+      <p>Created by <a href="https://www.instagram.com/farfirusfarhan/" class="text-white fW-bold">Farhan Firdaus</a></p>
+    </footer>
+    <!-- Akhir Footer -->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+  </body>
+</html>
